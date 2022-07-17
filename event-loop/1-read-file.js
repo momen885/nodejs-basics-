@@ -2,7 +2,7 @@ const { readFile } = require("fs");
 
 console.log("Started First Task ");
 // check file path
-readFile("./content/first.txt", "utf-8", (err, result) => {
+readFile("../content/first.txt", "utf-8", (err, result) => {
   if (err) {
     console.log(err);
     return;
